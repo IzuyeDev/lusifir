@@ -277,10 +277,8 @@ function Drop(item, index)
             sleep(300)
         end
     end
-    sleep(5000)
+    sleep(3000)
     getBot():drop(item, getBot():getInventory():getItemCount(item))
-
-    storeDatabase(item, getBot():getInventory():getItemCount(item))
     sleep(4000)
 
     green_crystal  = 0
